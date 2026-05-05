@@ -6,6 +6,7 @@ export interface VisualPropsResult {
   backgroundColor: string
   color: string
   fontSize: string
+  fontFamily: string
   borderWidth: string
   opacity: string
   display: string
@@ -30,6 +31,7 @@ export const EXTRACT_FN_SOURCE = `function() {
     backgroundColor: cs.backgroundColor,
     color: cs.color,
     fontSize: cs.fontSize,
+    fontFamily: cs.fontFamily,
     borderWidth: cs.borderWidth,
     opacity: cs.opacity,
     display: cs.display,

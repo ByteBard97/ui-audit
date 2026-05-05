@@ -13,6 +13,7 @@ export interface ElementProps {
   backgroundColor: string
   color: string
   fontSize: string
+  fontFamily: string
   borderWidth: string
   opacity: string
   display: string
